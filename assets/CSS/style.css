@@ -1,18 +1,20 @@
 body{
-    background-color: aquamarine;
+    background-color: whitesmoke;
 }
 
 h1{
-    font-size: ;
+    font-size: 30px;
 }
 
 h2{
-    font-size: ;
+    font-size: 26px;
 }
 
 .container{
     max-width: 1140px;
     margin: 0 auto;
+    font-size: 24px;
+    line-height: 35px;
 }
     
 .container > header {
@@ -47,11 +49,27 @@ article > img{
     
 }
 
+
+
 footer{
     padding: 25px;
     display: flex;
     color: grey;
-    background-color: blue;
+    background-color: yellow;
     flex: flex-end;
 }
 
+@media screen and (max-width: 768px){
+    body,p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    nav a:first-of-type{
+        margin-left: 0;
+    }
+
+.}
