@@ -7,7 +7,10 @@ h1{
 }
 
 h2{
+    margin-left: 10px;
     font-size: 26px;
+    text-decoration: underline;
+    
 }
 
 .container{
@@ -29,6 +32,7 @@ nav a {
     font-weight: bold;
     color: #b9c6ae;
     text-decoration: none;
+    padding: 3px 3px;
     }
 
 nav a:hover{
@@ -40,8 +44,10 @@ nav a:hover{
 }
 
 .about-me img{
-    margin-right: 16px;
-    margin-bottom: 16px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
 }
 
 article{
@@ -51,11 +57,12 @@ article > img{
     width: 100%
 }
 
-#work{
+.work{
     display: flex;
     flex-wrap: wrap;
-    
-}
+    }
+
+
 
 footer{
     padding: 25px;
@@ -63,7 +70,7 @@ footer{
     color: grey;
     background-color: #13293d;
     flex: flex-end;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 footer a {
