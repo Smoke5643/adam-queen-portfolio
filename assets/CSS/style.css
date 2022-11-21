@@ -2,6 +2,14 @@ body{
     background-color: aquamarine;
 }
 
+h1{
+    font-size: ;
+}
+
+h2{
+    font-size: ;
+}
+
 .container{
     max-width: 1140px;
     margin: 0 auto;
@@ -11,10 +19,39 @@ body{
     padding: 25px;
     display: flex;
     color: grey;
-    background-color: darkslategray;
+    background-color: blue;
     justify-content: space-between;
 }
 
-.nav-link{
-
+.about-me{
+    display: flex;
 }
+
+.about-me img{
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+
+
+article{
+    width: 50%;
+}
+article > img{
+    width: 100%
+}
+
+#work{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+footer{
+    padding: 25px;
+    display: flex;
+    color: grey;
+    background-color: blue;
+    flex: flex-end;
+}
+
