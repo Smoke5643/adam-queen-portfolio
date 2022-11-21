@@ -21,10 +21,20 @@ h2{
     padding: 25px;
     display: flex;
     color: grey;
-    background-color: blue;
+    background-color: #13293d;
     justify-content: space-between;
 }
 
+nav a {
+    font-weight: bold;
+    color: #b9c6ae;
+    text-decoration: none;
+    }
+
+nav a:hover{
+    color: white;
+}  
+ 
 .about-me{
     display: flex;
 }
@@ -33,8 +43,6 @@ h2{
     margin-right: 16px;
     margin-bottom: 16px;
 }
-
-
 
 article{
     width: 50%;
@@ -49,15 +57,24 @@ article > img{
     
 }
 
-
-
 footer{
     padding: 25px;
     display: flex;
     color: grey;
-    background-color: yellow;
+    background-color: #13293d;
     flex: flex-end;
+    justify-content: space-between;
 }
+
+footer a {
+    font-weight: bold;
+    color: #b9c6ae;
+    text-decoration: none;
+    }
+
+footer a:hover{
+    color: white;
+} 
 
 @media screen and (max-width: 768px){
     body,p{
@@ -72,4 +89,4 @@ footer{
         margin-left: 0;
     }
 
-.}
+}
