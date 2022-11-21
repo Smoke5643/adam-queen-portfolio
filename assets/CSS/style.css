@@ -1,9 +1,20 @@
 body{
     background-color: aquamarine;
 }
+
 .container{
     max-width: 1140px;
     margin: 0 auto;
-    background-color: yellow;
 }
     
+.container > header {
+    padding: 25px;
+    display: flex;
+    color: grey;
+    background-color: darkslategray;
+    justify-content: space-between;
+}
+
+.nav-link{
+
+}
