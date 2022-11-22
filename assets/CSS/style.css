@@ -2,6 +2,13 @@ body{
     background-color: whitesmoke;
 }
 
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 35px;
+}
+
 h1{
     font-size: 30px;
 }
@@ -10,16 +17,8 @@ h2{
     margin-left: 10px;
     font-size: 26px;
     text-decoration: underline;
-    
 }
 
-.container{
-    max-width: 1140px;
-    margin: 0 auto;
-    font-size: 24px;
-    line-height: 35px;
-}
-    
 .container > header {
     padding: 25px;
     display: flex;
@@ -50,19 +49,18 @@ nav a:hover{
     box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
 }
 
-article{
-    width: 50%;
-}
-article > img{
-    width: 100%
-}
-
-.work{
+#work{
     display: flex;
     flex-wrap: wrap;
     }
 
-
+article{
+        width: 50%;
+    }
+    
+.featured{
+    width: 100%;
+}
 
 footer{
     padding: 25px;
