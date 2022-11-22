@@ -1,3 +1,7 @@
+:root{
+    --dark: #13293d;
+    --light: #b9c6ae;
+}
 body{
     background-color: whitesmoke;
 }
@@ -23,13 +27,13 @@ h2{
     padding: 25px;
     display: flex;
     color: grey;
-    background-color: #13293d;
+    background-color: var(--dark);
     justify-content: space-between;
 }
 
 nav a {
     font-weight: bold;
-    color: #b9c6ae;
+    color: var(--light);
     text-decoration: none;
     padding: 3px 3px;
     }
@@ -52,28 +56,38 @@ nav a:hover{
 #work{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     }
 
 article{
         width: 50%;
+
     }
+
+article img {
+    margin: 16px 0;
+}
     
 .featured{
     width: 100%;
+}
+
+.featured img {
+    margin: 16px 0;
 }
 
 footer{
     padding: 25px;
     display: flex;
     color: grey;
-    background-color: #13293d;
+    background-color: var(--dark);
     flex: flex-end;
     justify-content: space-around;
 }
 
 footer a {
     font-weight: bold;
-    color: #b9c6ae;
+    color: var(--light);
     text-decoration: none;
     }
 
@@ -92,6 +106,10 @@ footer a:hover{
     }
     nav a:first-of-type{
         margin-left: 0;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
     }
 
 }
