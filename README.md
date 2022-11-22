@@ -15,4 +15,4 @@ Through the techniques we have been taught in our bootcamp thus far, I have crea
 
 Preview of my portfolio
 
-![image](image/screenshot.png)
+![image](assets/images/screenshot.png)
